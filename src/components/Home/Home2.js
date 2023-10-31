@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/Projects/pic.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import "./Home2.css";
 
 function Home2() {
   return (
@@ -19,8 +20,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I have keen interest in research based projects. My forte is
+              frontend development
               <br />
               <br />I am fluent in classics like
               <i>
@@ -28,13 +29,12 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are  &nbsp;
+              My field of Interest's are &nbsp;
               <i>
-                <b className="purple"> Big Data, Machine Learning, Deep Learning </b> and
-                {" "}
                 <b className="purple">
-                  Data Science
-                </b>
+                  React.js, Node.js, Machine Learning, Deep Learning{" "}
+                </b>{" "}
+                and <b className="purple">Data Analysis</b>
               </i>
               <br />
               <br />
@@ -45,7 +45,7 @@ function Home2() {
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b> */}
-              {/* </i>
+                {/* </i>
               &nbsp; like
               <i> */}
                 {/* <b className="purple"> React.js and Next.js</b> */}
@@ -67,7 +67,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Rishabhku03"
+                  href="https://github.com/Utkarsh-Jyani"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +75,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/Rishabh12584732?t=2kBZwLTdsOEh1KKVCY1wVQ&s=09"
                   target="_blank"
@@ -84,10 +84,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/rishabhku003"
+                  href="https://www.linkedin.com/in/utkarsh-jyani/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +97,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://instagram.com/_rishabh.1606?igshid=YmMyMTA2M2Y="
+                  href="https://instagram.com/utkarsh_jyani?igshid=YmMyMTA2M2Y="
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

@@ -38,9 +38,9 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+          <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+        </Nav.Link>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -53,11 +53,11 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
@@ -84,17 +84,27 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+                href="https://drive.google.com/file/d/19vd42MNdCfhJ5eBw_ocU5rzDfQkfmSwe/view?usp=share_link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            {/* <Nav.Item>
+              <Nav.Link
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
-                href="https://medium.com/@rishabhku"
+                href="https://medium.com/@utkarshjyani24"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -104,7 +114,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Rishabhku03"
+                href="https://github.com/Utkarsh-Jyani"
                 target="_blank"
                 className="fork-btn-inner"
               >

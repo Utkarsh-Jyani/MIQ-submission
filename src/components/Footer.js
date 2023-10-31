@@ -14,24 +14,25 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Rishabh</h3>
+          <h3>Designed and Developed by Utkarsh</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
+        <Col></Col>
+        {/* <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} RS</h3>
-        </Col>
+        </Col> */}
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Rishabhku03"
+                href="https://github.com/Utkarsh-Jyani"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://twitter.com/Rishabh12584732?t=2kBZwLTdsOEh1KKVCY1wVQ&s=09"
                 style={{ color: "white" }}
@@ -40,12 +41,12 @@ function Footer() {
               >
                 <AiOutlineTwitter />
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/rishabhku003"
+                href="https://www.linkedin.com/in/utkarsh-jyani/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -53,9 +54,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://instagram.com/_rishabh.1606?igshid=YmMyMTA2M2Y="
+                href="https://instagram.com/utkarsh_jyani?igshid=YmMyMTA2M2Y="
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
